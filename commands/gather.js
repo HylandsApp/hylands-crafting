@@ -1,10 +1,10 @@
 'use strict';
 
-const { Random } = require('rando-js');
 const { Broadcast: B } = require('ranvier');
 const ArgParser = require('../../hylands-lib/lib/ArgParser');
 const ItemUtil = require('../../hylands-lib/lib/ItemUtil');
 const Crafting = require('../lib/Crafting');
+const { Random } = require('../../hylands-combat/lib/Combat');
 
 module.exports = {
   command: state => (args, player) => {
